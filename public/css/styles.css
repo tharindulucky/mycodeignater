@@ -8,6 +8,25 @@ and open the template in the editor.
     Author     : Acer
 */
 
-h1{
-    color:red;
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Open Sans';
+}
+
+nav{
+    
+}
+
+.clearfix{
+    clear: both;
+    line-height: 1px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  padding: 20px;
 }
